@@ -8,7 +8,7 @@ const STATS = [
   { n: "2", l: "languages · en/ar" },
 ];
 
-function Stats() {
+export function Stats() {
   return (
     <div className="stats-grid">
       {STATS.map((s) => (
